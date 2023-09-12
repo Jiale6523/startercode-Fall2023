@@ -1,0 +1,7 @@
+Q3. hdfs dfs -mkdir /user/$USER/myhdfslab
+Q4. hdfs dfs -put part-0000* /user/$USER/myhdfslab/
+Q5. hdfs dfs -mkdir /user/$USER/mywords
+    hdfs dfs -mv /user/$USER/myhdfslab/part-0000* /user/$USER/mywords/
+Q6. hdfs dfs -rm -r /user/$USER/myhdfslab
+Q7. hdfs dfs -tail /user/$USER/mywords/part-00002
+Q8. hdfs dfs -stat "%b %r %u %y" /user/$USER/mywords/part-00001
